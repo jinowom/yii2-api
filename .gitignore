@@ -1,24 +1,14 @@
-# Composer files
-composer.phar
-vendor/
+# phpstorm project files
+.idea
 
-# Local configs
-config/autoload/*.local.php
+# zend studio for eclipse project files
+.buildpath
+.project
+.settings
 
-# Binary gettext files
-*.mo
+# windows thumbnail cache
+Thumbs.db
 
-# Data
-data/logs/
-data/cache/
-data/sessions/
-data/tmp/
-temp/
-
-#Doctrine 2
-data/DoctrineORMModule/Proxy/
-data/DoctrineORMModule/cache/
-
-# Legacy ZF1
-demos/
-extras/documentation
+# Mac DS_Store Files
+.DS_Store
+/nbproject/private/
